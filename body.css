@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "inter";
+}
+
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    height: 50vh;
+}
+
+.head {
+    font-size: 20vh;
+    font-family: "inter";
+    text-transform: uppercase;
+}
+
+.dis {
+
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: rgba(169, 169, 169, 0.308);
+}
+
+.dis li {
+
+    margin: 2vh;
+    /* border: 2px solid black; */
+    border-radius: 40px;
+    padding: 1vh;
+    text-align: center;
+    list-style: none;
+    background: linear-gradient(rgb(192, 83, 20), white, green);
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.disc {
+
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 4vh;
+}
+
+
+body {
+    background-color: antiquewhite;
+}
+
+#body {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 2vh;
+}
+
+#con {
+    width: 60vw;
+    height: 80vh;
+    background-color: cyan;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 20px;
+    background-image: url(/images/diversity.webp);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+.box {
+    height: 35vh;
+    width: 30vw;
+    background-color: blueviolet;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px;
+}
+
+#contain {
+    width: 30vw;
+    height: 80vh;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+.cards {
+    width: 90vw;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 2vh;
+    background-color: rgba(103, 161, 161, 0.89);
+}
+
+.land {
+    /* background-color: red; */
+    text-align: center;
+
+
+}
+
+.land h1 {
+    text-transform: capitalize;
+}
+
+.disc li:hover {
+    transform: scale(1.25);
+    color: azure;
+}
+
+#bar:hover {
+    transform: scale(1.02);
+}
+
+
+.menue {
+    /* background-color: red; */
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.menue li {
+    display: inline-block;
+    margin: 10px;
+    font-size: 3vh;
+    text-transform: capitalize;
+    padding: 1vh;
+}
+
+.menue ul {
+    list-style: none;
+    /* background-color: white; */
+
+}
+
+.dropdown {
+    display: none;
+}
+
+.menue ul li:hover .dropdown {
+    display: block;
+    position: absolute;
+    background-color: rgba(102, 168, 168, 0.685);
+}
+
+
+
+.dropdown ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.menue li:hover {
+    background-color: cyan;
+    border: none;
+    border-radius: 20px;
+
+}
