@@ -5,8 +5,6 @@
     font-family: "inter";
 }
 
-
-
 #img {
     /* background-image: url(images/i1.jpg); */
     background-repeat: no-repeat;
@@ -99,7 +97,6 @@ body h5{
 #search::placeholder{
     font-size: 20px;
 }
-
 
 #h1{
     text-align: center;

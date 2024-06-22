@@ -4,7 +4,6 @@
     font-family: "inter";
 }
 
-
 .heading {
     display: flex;
     justify-content: center;
@@ -53,7 +52,6 @@
     flex-direction: column;
     font-size: 4vh;
 }
-
 
 body {
     background-color: antiquewhite;
@@ -131,7 +129,6 @@ body {
     transform: scale(1.02);
 }
 
-
 .menue {
     /* background-color: red; */
     width: 30vw;
@@ -140,8 +137,6 @@ body {
     justify-content: space-around;
     align-items: center;
 }
-
-
 
 .menue li {
     display: inline-block;
@@ -167,8 +162,6 @@ body {
     background-color: rgba(102, 168, 168, 0.685);
 }
 
-
-
 .dropdown ul {
     display: flex;
     flex-direction: column;
@@ -176,10 +169,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
-
-
-
 
 .menue li:hover {
     background-color: cyan;
